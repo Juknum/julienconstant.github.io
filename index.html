@@ -15,9 +15,14 @@ title: Julien Constant
 
 	<div class="container" id="containerOld">
 
-		<a class="btn btn-dark squared" onclick="ShowCV()">
+		<a class="btn btn-dark squared" onclick="Show('cv','fr')">
 			<i class="fas fa-file-contract"></i>
 			<p class="thumb">CV</p>
+		</a>
+
+		<a class="btn btn-dark squared" onclick="Show('portfolio','fr')">
+			<i class="fas fa-folder-open"></i>
+			<p class="thumb">Portfolio</p>
 		</a>
 
 		<a class="btn btn-dark squared" href="https://github.com/Juknum">
@@ -30,4 +35,4 @@ title: Julien Constant
 	<div class="container" id="containerNew" style="display: hidden;"></div>
 </div>
 
-<script src="{{ site.baseurl }}/js/ShowCV.js" async></script>
+<script src="{{ site.baseurl }}/js/Show.js" async></script>
