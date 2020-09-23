@@ -4,6 +4,12 @@
 	border-color: #343a40;
 }
 
+.btn-dark {
+	color: white;
+	background-color: #343a40;
+	border-color: #343a40;
+}
+
 .background {
 	background-color: #000;
 	color: #fff;
