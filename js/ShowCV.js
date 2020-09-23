@@ -7,7 +7,7 @@ function ShowCV(){
 
 	fetch('https://raw.githubusercontent.com/Juknum/julienconstant.github.io/master/sources/cv.html')
   .then(data => data.text())
-  .then(html => divNew.innerHTML = '<a class="btn btn-dark" onclick="HideCV()"><i class="fas fa-times"></i>Fermer</a> <br>' + html);
+  .then(html => divNew.innerHTML = '<a class="btn btn-dark" onclick="HideCV()">Fermer <i class="fas fa-times"></i></a> <br>' + html);
 }
 
 function HideCV(){
