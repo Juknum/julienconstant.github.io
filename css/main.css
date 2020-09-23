@@ -1,0 +1,27 @@
+.bg-dark {
+	color: white;
+}
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+	 
+.container {
+	text-align: center;
+	background: #0000;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+	  
+img {
+	margin-top: 30px;
+}
+	  
+.btn-lg {
+  padding: 0.5rem 1.5rem;
+	font-size: 64px;
+}
