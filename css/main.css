@@ -2,18 +2,16 @@
 	color: white;
 }
 
-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  max-width: 100%;
-}
-
 .background {
 	background-color: #000;
 	color: #fff;
-	position: absolute;
+	position: fixed;
+	
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	overflow: hidden;
 }
 
 .foreground {
@@ -34,7 +32,15 @@ img {
 	margin-top: 30px;
 }
 	  
-.btn-lg {
-  padding: 0.5rem 1.5rem;
-	font-size: 64px;
+.squared {
+	width: 120px;
+	height: 120px;
+	font-size: 60px;
+	text-shadow: 6px 6px 10px #000;
+	margin: 12px;
+}
+
+.thumb {
+	font-size: 15px;
+	margin-top: -5px;
 }
