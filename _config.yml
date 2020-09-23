@@ -1,0 +1,7 @@
+url: "https://juknum.github.io/julienconstant.github.io/"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
