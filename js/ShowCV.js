@@ -5,7 +5,7 @@ function ShowCV(){
 	divOld.style.display = 'hidden';
 	divNew.style.display = 'block';
 
-	fetch('https://github.com/Juknum/julienconstant.github.io/tree/master/sources/cv.html')
+	fetch('https://raw.githubusercontent.com/Juknum/julienconstant.github.io/master/sources/cv.html')
   .then(data => data.text())
   .then(html => divNew.innerHTML = html);
 }
