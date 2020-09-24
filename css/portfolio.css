@@ -1,17 +1,10 @@
-	/* Design */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
 }
 
-.btn {
+.btn-portfolio {
   color: #ffffff;
   padding: 0.8rem;
   font-size: 14px;
@@ -25,7 +18,7 @@ img {
   background: transparent;
 }
 
-.btn:hover {
+.btn-portfolio:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -65,7 +58,6 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
 }
 
 .card_title {
