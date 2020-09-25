@@ -9,7 +9,7 @@ function LoadCards(IDcategory){
 		var json = request.response;
 		var cards = document.getElementById(IDcategory);
 
-		for (var i = 0; i < json.length; i++) {
+		for (var i = 0; i < json[category].length; i++) {
 
 			var obj = json[category][i];
 
