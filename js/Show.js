@@ -14,6 +14,13 @@ function Show(type, lang){
 	  .then(html => divNew.innerHTML = html + endBtn);
 	}
 
+	if ( type === 'portfolio' ) {
+		const script = document.createElement("script"), text = document.createTextNode("LoadCards('ps');");
+
+		script.appendChild(text);
+		document.body.appendChild(script);
+	}
+
 }
 
 function Hide(){
