@@ -1,11 +1,13 @@
 function LoadPortfolio(lang){
 
+	var data = [];
+
 	$.ajax({
 	  url: 'https://raw.githubusercontent.com/Juknum/julienconstant.github.io/master/data/portfolio.json',
 	  async: false,
 	  dataType: 'json',
 	  success: function (json) {
-	    var data = json;
+	    data = json;
 	  }
 	});
 
