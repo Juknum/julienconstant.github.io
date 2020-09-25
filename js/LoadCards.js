@@ -18,8 +18,11 @@ function LoadCards(IDcategory){
 			var btn        = document.createElement('a').classList.add('btn-portfolio','card-btn');
 			
 			cards.appendChild(card);
-			card.appendChild(imgDiv).appendChild(contentDiv);
-			contentDiv.appendChild(h2).appendChild(p).appendChild(btn);
+			card.appendChild(imgDiv)
+			card.appendChild(contentDiv);
+			contentDiv.appendChild(h2)
+			contentDiv.appendChild(p)
+			contentDiv.appendChild(btn);
 			imgDiv.appendChild(img);
 
 			p.innerHTML   = obj.description;
