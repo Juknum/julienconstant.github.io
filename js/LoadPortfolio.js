@@ -22,7 +22,7 @@ function LoadPortfolio(lang){
 
 	console.log(data);
 
-	for (var k = 0; k < data.length; i++){
+	/*for (var k = 0; k < data.length; i++){
 		var title = '<h2>' + data[k] + '</h2><br>'
     for (var i = 0; i < data[k].length; i++) {
 			var obj = data[k][i];
@@ -32,6 +32,6 @@ function LoadPortfolio(lang){
 		divNew.innerHTML += title + html + eof;
 		html = '';
 	}
-
+*/
 	divNew.innerHTML += endBtn;
 }
