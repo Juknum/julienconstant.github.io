@@ -13,7 +13,7 @@ function LoadCards(IDcategory){
 
 	for (var i = 0; i < json.length; i++) {
 
-		obj = json[category][i];
+		var obj = json[category][i];
 
 		var card = document.createElement('div').classList.add('card');
 		var imgDiv = document.createElement('div').classList.add('card-image bg-semi-dark');
