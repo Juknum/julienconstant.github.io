@@ -1,6 +1,10 @@
 function LoadCards(IDcategory){
 
 	$.getJSON('https://raw.githubusercontent.com/Juknum/julienconstant.github.io/master/data/portfolio.json', function(data) {
+
+		console.log(data);
+		console.log(data[IDcategory]);
+
     for (var i = 0; i < data[IDcategory].length; i++) {
 			var obj = data[IDcategory][i];
 
