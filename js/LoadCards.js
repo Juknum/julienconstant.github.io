@@ -1,4 +1,4 @@
-function LoadsCards(IDcategory){
+function LoadCards(IDcategory){
 	var requestURL = 'https://raw.githubusercontent.com/Juknum/julienconstant.github.io/master/data/portfolio.json';
 	var request = new XMLHttpRequest();
 	request.open('GET', requestURL);
