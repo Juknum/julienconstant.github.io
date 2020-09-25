@@ -8,17 +8,10 @@ function Show(type, lang){
 	const gitURL = 'https://raw.githubusercontent.com/Juknum/julienconstant.github.io/master/sources/';
 	const endBtn = '<hr> <a class="btn btn-danger" onclick="Hide()"><i class="fas fa-times"></i></a>';
 
-	if ( (type === 'cv' || type === 'portfolio') && lang === 'fr' ) {
+	if ( type === 'cv' && lang === 'fr' ) {
 		fetch(gitURL + type + '.html')
 	  .then(data => data.text())
 	  .then(html => divNew.innerHTML = html + endBtn);
-	}
-
-	if ( type === 'portfolio' ) {
-		const script = document.createElement("script"), text = document.createTextNode("LoadCards('ps');");
-
-		script.appendChild(text);
-		document.body.appendChild(script);
 	}
 
 }

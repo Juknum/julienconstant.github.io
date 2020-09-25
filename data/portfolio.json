@@ -1,61 +1,61 @@
 {
-	"pp": [
+	"Projet Personnels": [
 		{
 			"title": "Daltonisme",
 		  "description": "description descriptive",
-		  "image":"image/portfolio/daltonisme.png",
+		  "image":"images/portfolio/daltonisme.png",
 		  "link":"#"
 		}
 	],
-	"ps": [
+	"Projet Scolaires": [
 		{
 			"title": "Daltonisme",
 			"description":"description descriptive",
-		  "image":"image/portfolio/daltonisme.png",
+		  "image":"images/portfolio/daltonisme.png",
 			"link":"#"
 		},
 		{
 			"title": "Belote",
 			"description": "description descriptive",
-			"image": "image/portfolio/belote.png",
+			"image": "images/portfolio/belote.png",
 			"link": "#"
 		},
 		{
 			"title": "Pistolet Laser",
 			"description": "description descriptive",
-			"image": "image/portfolio/pistoletlaser.png",
+			"image": "images/portfolio/pistoletlaser.png",
 			"link": "#"
 		},
 		{
 			"title": "2048 VBA",
 			"description": "description descriptive",
-			"image": "image/portfolio/2048.png",
+			"image": "images/portfolio/2048.png",
 			"link": "#"
 		}
 	],
-	"pc": [
+	"Projets Communautaires": [
 		{
 			"title": "Faithful 3D",
 			"description": "description descriptive",
-			"image": "image/portfolio/f3d.png",
+			"image": "images/portfolio/f3d.png",
 			"link": "#"
 		},
 		{
 			"title": "Faithful Addons",
 			"description": "description descriptive",
-			"image": "image/portfolio/faddons.png",
+			"image": "images/portfolio/faddons.png",
 			"link": "#"
 		},
 		{
 			"title": "Faithful Dungeons",
 			"description": "description descriptive",
-			"image": "image/portfolio/fdungeons.png",
+			"image": "images/portfolio/fdungeons.png",
 			"link": "#"
 		},
 		{
 			"title": "Faithful Mods",
 			"description": "description descriptive",
-			"image": "image/portfolio/fmods.png",
+			"image": "images/portfolio/fmods.png",
 			"link": "#"
 		}
 	]
