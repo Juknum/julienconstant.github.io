@@ -9,9 +9,9 @@ function LoadCards(IDcategory){
 		var json = request.response;
 		var cards = document.getElementById(IDcategory);
 
-		for (var i = 0; i < json[category].length; i++) {
+		for (var i = 0; i < json[IDcategory].length; i++) {
 
-			var obj = json[category][i];
+			var obj = json[IDcategory][i];
 
 			var card = document.createElement('div').classList.add('card');
 			var imgDiv = document.createElement('div').classList.add('card-image bg-semi-dark');
