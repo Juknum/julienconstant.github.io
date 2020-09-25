@@ -4,6 +4,8 @@ function LoadCards(IDcategory){
 
 		console.log(data);
 
+		var cards = document.getElementById(IDcategory);
+
     for (var i = 0; i < data[IDcategory].length; i++) {
 			var obj = data[IDcategory][i];
 
@@ -20,11 +22,11 @@ function LoadCards(IDcategory){
 			contentDiv.appendChild(h2).appendChild(p).appendChild(btn);
 			imgDiv.appendChild(img);
 
-			p.innerHTML = obj.description;
-			h2.innerHTML = obj.title;
-			img.src = obj.image;
+			p.innerHTML   = obj.description;
+			h2.innerHTML  = obj.title;
+			img.src       = obj.image;
 			btn.innerHTML = 'En savoir plus';
-			btn.href = obj.link;
+			btn.href      = obj.link;
 		}
 	});
 }
