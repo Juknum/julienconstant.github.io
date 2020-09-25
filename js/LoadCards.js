@@ -12,8 +12,7 @@ function LoadCards(IDcategory){
 			var img    = document.createElement('img')
 			img.src = obj.image;
 
-			imgDiv.appendChild(img);
-			card.appendChild(imgDiv);
+			
 
 			var contentDiv = document.createElement('div').classList.add('card-cotent','bg-dark');
 
@@ -26,11 +25,11 @@ function LoadCards(IDcategory){
 			var btn = document.createElement('a').classList.add('btn-portfolio','card-btn');
 			btn.innerHTML = 'En savoir plus';
 			btn.href = obj.link;
-
-			contentDiv.appendChild(h2).appendChild(p).appendChild(btn);
-			card.appendChild(imgDiv).appendChild(contentDiv);
-
+			
 			cards.appendChild(card);
+			card.appendChild(imgDiv).appendChild(contentDiv);
+			contentDiv.appendChild(h2).appendChild(p).appendChild(btn);
+			imgDiv.appendChild(img);
 		}
 	});
 }
