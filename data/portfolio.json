@@ -1,64 +1,62 @@
-[
-	{
-		"pp": [
-			{
-				"title": "Daltonisme",
-			  "description": "description descriptive",
-			  "image":"image/portfolio/daltonisme.png",
-			  "link":"#"
-			}
-		],
-		"ps": [
-			{
-				"title": "Daltonisme",
-				"description":"description descriptive",
-			  "image":"image/portfolio/daltonisme.png",
-				"link":"#"
-			},
-			{
-				"title": "Belote",
-				"description": "description descriptive",
-				"image": "image/portfolio/belote.png",
-				"link": "#"
-			},
-			{
-				"title": "Pistolet Laser",
-				"description": "description descriptive",
-				"image": "image/portfolio/pistoletlaser.png",
-				"link": "#"
-			},
-			{
-				"title": "2048 VBA",
-				"description": "description descriptive",
-				"image": "image/portfolio/2048.png",
-				"link": "#"
-			}
-		],
-		"pc": [
-			{
-				"title": "Faithful 3D",
-				"description": "description descriptive",
-				"image": "image/portfolio/f3d.png",
-				"link": "#"
-			},
-			{
-				"title": "Faithful Addons",
-				"description": "description descriptive",
-				"image": "image/portfolio/faddons.png",
-				"link": "#"
-			},
-			{
-				"title": "Faithful Dungeons",
-				"description": "description descriptive",
-				"image": "image/portfolio/fdungeons.png",
-				"link": "#"
-			},
-			{
-				"title": "Faithful Mods",
-				"description": "description descriptive",
-				"image": "image/portfolio/fmods.png",
-				"link": "#"
-			}
-		]
-	}
-]
+{
+	"pp": [
+		{
+			"title": "Daltonisme",
+		  "description": "description descriptive",
+		  "image":"image/portfolio/daltonisme.png",
+		  "link":"#"
+		}
+	],
+	"ps": [
+		{
+			"title": "Daltonisme",
+			"description":"description descriptive",
+		  "image":"image/portfolio/daltonisme.png",
+			"link":"#"
+		},
+		{
+			"title": "Belote",
+			"description": "description descriptive",
+			"image": "image/portfolio/belote.png",
+			"link": "#"
+		},
+		{
+			"title": "Pistolet Laser",
+			"description": "description descriptive",
+			"image": "image/portfolio/pistoletlaser.png",
+			"link": "#"
+		},
+		{
+			"title": "2048 VBA",
+			"description": "description descriptive",
+			"image": "image/portfolio/2048.png",
+			"link": "#"
+		}
+	],
+	"pc": [
+		{
+			"title": "Faithful 3D",
+			"description": "description descriptive",
+			"image": "image/portfolio/f3d.png",
+			"link": "#"
+		},
+		{
+			"title": "Faithful Addons",
+			"description": "description descriptive",
+			"image": "image/portfolio/faddons.png",
+			"link": "#"
+		},
+		{
+			"title": "Faithful Dungeons",
+			"description": "description descriptive",
+			"image": "image/portfolio/fdungeons.png",
+			"link": "#"
+		},
+		{
+			"title": "Faithful Mods",
+			"description": "description descriptive",
+			"image": "image/portfolio/fmods.png",
+			"link": "#"
+		}
+	]
+}
