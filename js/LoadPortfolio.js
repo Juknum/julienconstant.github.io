@@ -1,15 +1,16 @@
 function LoadPortfolio(lang){
-	var divOld = document.getElementById("containerOld");
-	var divNew = document.getElementById("containerNew");
-
-	divOld.style.display = 'none';
-	divNew.style.display = 'block';
+	
 
 	$.getJSON('https://raw.githubusercontent.com/Juknum/julienconstant.github.io/master/data/portfolio.json', function(data) {
+		var divOld = document.getElementById("containerOld");
+		var divNew = document.getElementById("containerNew");
 
-		var containerNew = document.getElementById('containerNew');
+		divOld.style.display = 'none';
+		divNew.style.display = 'block';
+	
 		var html = '';
 		var eof = '<hr>';
+		const endBtn = '<hr> <a class="btn btn-danger" onclick="Hide()"><i class="fas fa-times"></i></a>';
 
 		console.log(data);
 
@@ -23,9 +24,11 @@ function LoadPortfolio(lang){
 
 			}
 
-			containerNew.innerHTML += title + html + eof;
+			divNew.innerHTML += title + html + eof;
 			html = '';
 		}
+
+		divNew.innerHTML += endBtn;
 
 	});
 }
