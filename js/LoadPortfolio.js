@@ -20,13 +20,16 @@ function LoadPortfolio(lang){
 	const eof = '<hr>';
 	const endBtn = '<hr> <a class="btn btn-danger" onclick="Hide()"><i class="fas fa-times"></i></a>';
 
-	console.log(data);
+	console.log('json :',data);
 
-	for (var k = 0; k < data.length; k++){
+	for (var k = 0; k < 3; k++){
 		var title = '<h2>' + data[k] + '</h2><br>'
-    for (var i = 0; i < data[k].length; i++) {
+
+        console.log(k,data.length);
+		
+    for (var i = 0; i < 4; i++) {
 			var obj = data[k][i];
-			console.log(obj);
+			console.log('data[',k,'] : ',obj);
 			html += '<li class="cards-item"><div class="card"><div class="card-image bg-semi-dark"><img src="' + obj.image + '"></div><div class="card-content bg-dark"><h2 class="card-title">' + obj.title + '</h2><p class="card-text">' + obj.description + '</p><a href=' + obj.link + ' class="btn-portfolio card-btn">En savoir plus</a></div></div></li>'
 		}
 
