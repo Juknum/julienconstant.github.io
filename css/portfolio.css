@@ -19,6 +19,8 @@ img {
 }
 
 .btn-portfolio:hover {
+  color: #ffffff !important;
+  text-decoration: none !important;
   background-color: rgba(255, 255, 255, 0.12);
 }
 
