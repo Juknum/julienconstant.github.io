@@ -5,8 +5,7 @@ function LoadBackground(value) {
 	if (cookieBackground == undefined) {
 
 		localStorage.setItem('BackgroundCookieSelectorJC-Juknum',0);
-		cookieBackground = 0;
-		Background(0);
+		LoadBackground(0);
 
 		// If cookie already exist :
 	} else {
