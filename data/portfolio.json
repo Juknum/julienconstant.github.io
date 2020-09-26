@@ -1,5 +1,12 @@
 {
-	"pp": [
+	"title" : [ 
+		{
+			"me" : "Projets Personnels",
+			"school" : "Projets Scolaires",
+			"community" : "Projets Communautaires"
+		}
+	],
+	"e0": [
 		{
 			"title": "Daltonisme",
 		  "description": "description descriptive",
@@ -7,7 +14,7 @@
 		  "link":"#"
 		}
 	],
-	"ps": [
+	"e1": [
 		{
 			"title": "Daltonisme",
 			"description":"description descriptive",
@@ -33,7 +40,7 @@
 			"link": "#"
 		}
 	],
-	"pc": [
+	"e2": [
 		{
 			"title": "Faithful 3D",
 			"description": "description descriptive",

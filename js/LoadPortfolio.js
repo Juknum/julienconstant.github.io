@@ -24,24 +24,24 @@ function LoadPortfolio(lang){
 	var i = 0;
   var obj = '';
 
-	divNew.innerHTML = '<h2>Projet Personnels:</h2><br>';
-	for(var i = 0; i < data.pp.length; i++) {
+	divNew.innerHTML = '<h2>' + data.title[0].me + '</h2><br>';
+	for(var i = 0; i < data.e0.length; i++) {
 		obj = data.pp[i];
 		html += '<li class="cards-item"><div class="card"><div class="card-image bg-semi-dark"><img src="' + obj.image + '"></div><div class="card-content bg-dark"><h2 class="card-title">' + obj.title + '</h2><p class="card-text">' + obj.description + '</p><a href=' + obj.link + ' class="btn-portfolio card-btn">En savoir plus</a></div></div></li>';
 	}
 
-	divNew.innerHTML += html + '</ul><hr><h2>Projet Scolaires:</h2><br>';
+	divNew.innerHTML += html + '</ul><hr><h2>' + data.title[0].school + '</h2><br>';
 	html = '<ul class="cards">';
 
-	for(var i = 0; i < data.ps.length; i++) {
+	for(var i = 0; i < data.e1.length; i++) {
 		obj = data.ps[i];
 		html += '<li class="cards-item"><div class="card"><div class="card-image bg-semi-dark"><img src="' + obj.image + '"></div><div class="card-content bg-dark"><h2 class="card-title">' + obj.title + '</h2><p class="card-text">' + obj.description + '</p><a href=' + obj.link + ' class="btn-portfolio card-btn">En savoir plus</a></div></div></li>';
 	}
 
-	divNew.innerHTML += html + '</ul><hr><h2>Projet Communautaires:</h2><br>';
+	divNew.innerHTML += html + '</ul><hr><h2>' + data.title[0].community + '</h2><br>';
 	html = '<ul class="cards">';
 
-	for(var i = 0; i < data.pc.length; i++) {
+	for(var i = 0; i < data.e2.length; i++) {
 		obj = data.pc[i];
 		html += '<li class="cards-item"><div class="card"><div class="card-image bg-semi-dark"><img src="' + obj.image + '"></div><div class="card-content bg-dark"><h2 class="card-title">' + obj.title + '</h2><p class="card-text">' + obj.description + '</p><a href=' + obj.link + ' class="btn-portfolio card-btn">En savoir plus</a></div></div></li>';
 	}
