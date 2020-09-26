@@ -2,7 +2,7 @@ function LoadBackground(value) {
 	var cookieBackground = localStorage.getItem('BackgroundCookieSelectorJC-Juknum');
 
 	// If cookie doesn't exist :
-	if (cookieBackground == undefined) {
+	if (cookieBackground === undefined) {
 
 		localStorage.setItem('BackgroundCookieSelectorJC-Juknum',0);
 		LoadBackground(0);
@@ -14,7 +14,7 @@ function LoadBackground(value) {
 		var webm = document.getElementById('video-webm');
 		var poster = document.getElementById('poster');
 
-		cookieBackground = parseInt(cookieBac, 10);
+		cookieBackground = parseInt(cookieBacground, 10);
 
 		console.log(cookieBackground);
 		cookieBackground += value;
