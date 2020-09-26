@@ -14,7 +14,7 @@ function LoadBackground(value) {
 		var webm = document.getElementById('video-webm');
 		var poster = document.getElementById('poster');
 
-		cookieBackground = parseInt(cookieBacground, 10);
+		cookieBackground = parseInt(cookieBackground, 10);
 
 		console.log(cookieBackground);
 		cookieBackground += value;
