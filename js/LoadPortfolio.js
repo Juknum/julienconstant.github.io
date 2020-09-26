@@ -16,7 +16,7 @@ function LoadPortfolio(lang){
 
 	divOld.style.display = 'none';
 	divNew.style.display = 'block';
-	var   html   = '<ul class="cards">';
+	var   html   = '<link rel="stylesheet" href="css/portfolio.css"><ul class="cards">';
 	const endBtn = '<hr> <a class="btn btn-danger" onclick="Hide()"><i class="fas fa-times"></i></a>';
 
 	//console.log('json :',data);
