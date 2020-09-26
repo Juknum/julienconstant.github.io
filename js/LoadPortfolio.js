@@ -26,7 +26,7 @@ function LoadPortfolio(lang){
 
 	divNew.innerHTML = '<h2>' + data.title[0].me + '</h2><br>';
 	for(var i = 0; i < data.e0.length; i++) {
-		obj = data.pp[i];
+		obj = data.e0[i];
 		html += '<li class="cards-item"><div class="card"><div class="card-image bg-semi-dark"><img src="' + obj.image + '"></div><div class="card-content bg-dark"><h2 class="card-title">' + obj.title + '</h2><p class="card-text">' + obj.description + '</p><a href=' + obj.link + ' class="btn-portfolio card-btn">En savoir plus</a></div></div></li>';
 	}
 
@@ -34,7 +34,7 @@ function LoadPortfolio(lang){
 	html = '<ul class="cards">';
 
 	for(var i = 0; i < data.e1.length; i++) {
-		obj = data.ps[i];
+		obj = data.e1[i];
 		html += '<li class="cards-item"><div class="card"><div class="card-image bg-semi-dark"><img src="' + obj.image + '"></div><div class="card-content bg-dark"><h2 class="card-title">' + obj.title + '</h2><p class="card-text">' + obj.description + '</p><a href=' + obj.link + ' class="btn-portfolio card-btn">En savoir plus</a></div></div></li>';
 	}
 
@@ -42,9 +42,9 @@ function LoadPortfolio(lang){
 	html = '<ul class="cards">';
 
 	for(var i = 0; i < data.e2.length; i++) {
-		obj = data.pc[i];
+		obj = data.e2[i];
 		html += '<li class="cards-item"><div class="card"><div class="card-image bg-semi-dark"><img src="' + obj.image + '"></div><div class="card-content bg-dark"><h2 class="card-title">' + obj.title + '</h2><p class="card-text">' + obj.description + '</p><a href=' + obj.link + ' class="btn-portfolio card-btn">En savoir plus</a></div></div></li>';
 	}
 
-	divNew.innerHTML += '</ul>' + endBtn;
+	divNew.innerHTML += html + '</ul>' + endBtn;
 }
