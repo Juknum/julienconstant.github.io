@@ -19,13 +19,46 @@
 .background {
 	background-color: #000;
 	color: #fff;
+
 	position: fixed;
-	
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	overflow: hidden;
+	z-index: -100;
+}
+
+.bg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.bg-video {
+		height: 300%;
+		top: -100%;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.bg-video {
+		width: 300%;
+		left: -100%;
+		max-width: initial;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.background {
+		background-color: #000;
+	}
+	.bg-video {
+		display: none;
+	}
 }
 
 .foreground {
