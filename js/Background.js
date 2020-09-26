@@ -1,4 +1,4 @@
-function Background(value) {
+function LoadBackground(value) {
 	var cookieBackground = localStorage.getItem('BackgroundCookieSelectorJC-Juknum');
 
 	// If cookie doesn't exist :
