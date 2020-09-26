@@ -1,69 +1,64 @@
 {
 	"title" : [ 
 		{
-			"me" : "Projets Personnels",
-			"school" : "Projets Scolaires",
-			"community" : "Projets Communautaires"
+			"me":         "Projets Personnels",
+			"school":     "Projets Scolaires",
+			"community":  "Projets Communautaires"
 		}
 	],
 	"e0": [
-		{
-			"title": "Daltonisme",
-		  "description": "description descriptive",
-		  "image":"images/portfolio/daltonisme.png",
-		  "link":"#"
-		}
+		{}
 	],
 	"e1": [
 		{
-			"title": "Daltonisme",
-			"description":"description descriptive",
-		  "image":"images/portfolio/daltonisme.png",
-			"link":"#"
+			"title":        "Daltonisme",
+		  "description":  "Projet d'ISN pour transformer une image selon la vue d'un daltonien.",
+		  "image":        "images/portfolio/daltonisme.png",
+		  "link":         "https://github.com/Juknum/Daltonisme"
 		},
 		{
-			"title": "Belote",
-			"description": "description descriptive",
-			"image": "images/portfolio/belote.png",
-			"link": "#"
+			"title":        "Belote",
+			"description":  "Projet d'IFB : réalisation d'une Belote en C.",
+			"image":        "images/portfolio/belote.png",
+			"link":         "https://github.com/Juknum/Belote"
 		},
 		{
-			"title": "Pistolet Laser",
-			"description": "description descriptive",
-			"image": "images/portfolio/pistoletlaser.png",
-			"link": "#"
+			"title":        "Pistolet Laser",
+			"description":  "Projet de SI : réalisation d'un pistolet laser & d'une cible.",
+			"image":        "images/portfolio/pistoletlaser.png",
+			"link":         "https://github.com/Juknum/ProjetSI"
 		},
 		{
-			"title": "2048 VBA",
-			"description": "description descriptive",
-			"image": "images/portfolio/2048.png",
-			"link": "#"
+			"title":        "2048 VBA",
+			"description":  "Adaptation d'une jeu 2048 en VBA sous Excel.",
+			"image":        "images/portfolio/2048.png",
+			"link":         "https://github.com/Juknum/2048"
 		}
 	],
 	"e2": [
 		{
-			"title": "Faithful 3D",
-			"description": "description descriptive",
-			"image": "images/portfolio/f3d.png",
-			"link": "#"
+			"title":        "Faithful 3D",
+			"description":  "Réalisation d'un pack de ressource complémentaire au Faithful, ajoutant des modèles 3D plus détaillé au jeux Minecraft.",
+			"image":        "images/portfolio/f3d.png",
+			"link":         "https://www.faithful3d.team/"
 		},
 		{
-			"title": "Faithful Addons",
-			"description": "description descriptive",
-			"image": "images/portfolio/faddons.png",
-			"link": "#"
+			"title":        "Faithful Addons",
+			"description":  "Création d'une communauté autour du pack de ressource Faithful pour Minecraft.",
+			"image":        "images/portfolio/faddons.png",
+			"link":         "https://discord.gg/qVeDfZw"
 		},
 		{
-			"title": "Faithful Dungeons",
-			"description": "description descriptive",
-			"image": "images/portfolio/fdungeons.png",
-			"link": "#"
+			"title":        "Faithful Dungeons",
+			"description":  "Double résolutions pour le jeux Minecraft Dungeons.",
+			"image":        "images/portfolio/fdungeons.png",
+			"link":         "https://github.com/Faithful-Dungeons"
 		},
 		{
-			"title": "Faithful Mods",
-			"description": "description descriptive",
-			"image": "images/portfolio/fmods.png",
-			"link": "#"
+			"title":        "Faithful Mods",
+			"description":  "Double résolutions pour les Mods Java de Minecraft.",
+			"image":        "images/portfolio/fmods.png",
+			"link":         "https://github.com/Faithful-Mods"
 		}
 	]
 }
