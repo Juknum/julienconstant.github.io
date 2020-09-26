@@ -7,7 +7,12 @@
 		}
 	],
 	"e0": [
-		{}
+		{
+			"title":        "Site Web",
+			"description":  "Création d'un site web pour Valerie Heahnel",
+			"image":        "images/portfolio/vh.png",
+			"link":         "https://www.valeriehaehnel.com/"
+		}
 	],
 	"e1": [
 		{
@@ -18,7 +23,7 @@
 		},
 		{
 			"title":        "Belote",
-			"description":  "Projet d'IFB : réalisation d'une Belote en C.",
+			"description":  "Projet d'IFB : réalisation d'une Belote Coinchée en C. Projet réalisé à 3",
 			"image":        "images/portfolio/belote.png",
 			"link":         "https://github.com/Juknum/Belote"
 		},
@@ -30,7 +35,7 @@
 		},
 		{
 			"title":        "2048 VBA",
-			"description":  "Adaptation d'une jeu 2048 en VBA sous Excel.",
+			"description":  "Projet d'IFA : Adaptation d'une jeu 2048 en VBA sous Excel.",
 			"image":        "images/portfolio/2048.png",
 			"link":         "https://github.com/Juknum/2048"
 		}
@@ -38,7 +43,7 @@
 	"e2": [
 		{
 			"title":        "Faithful 3D",
-			"description":  "Réalisation d'un pack de ressource complémentaire au Faithful, ajoutant des modèles 3D plus détaillé au jeux Minecraft.",
+			"description":  "Réalisation d'un pack de ressource complémentaire au Faithful.",
 			"image":        "images/portfolio/f3d.png",
 			"link":         "https://www.faithful3d.team/"
 		},
