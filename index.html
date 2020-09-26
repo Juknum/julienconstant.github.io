@@ -4,9 +4,9 @@ title: Julien Constant
 ---
 
 <div class="background">
-	<video class="bg-video" loop muted autoplay poster="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1263950/da538bac62ee5e233cd82bb75b0d3c47ba0cdc03.jpg">
-		<source src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1263950/4d466f77edf3265a253fba79d47bc91a37e34920.webm" type="video/webm">
-		<source src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1263950/248954cba9bc08b6e16c676f5c1814ff823af907.mp4" type="video/mp4">
+	<video id="poster" class="bg-video" loop muted autoplay poster="">
+		<source id="video-webm" src="" type="video/webm">
+		<source id="video-mp4" src="" type="video/mp4">
 	</video>
 
 	<div style="
@@ -66,10 +66,20 @@ title: Julien Constant
 			<p class="thumb">Facebook</p>
 		</a>
 
+		<hr>
+
+		<a href="btn btn-dark squared" onclick="Background(1)">
+			<i class="fas fa-fill-drip"></i>
+			<p class="thumb">Swap</p>
+		</a>
+
 	</div>
 
 	<div class="container" id="containerNew" style="display: hidden;"></div>
 </div>
 
+<script type="text/javascript" src="{{ site.baseurl }}/js/Background.js" async></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/LoadPortfolio.js" async></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/Show.js" async></script>
+
+<script>Background()</script>
