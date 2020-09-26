@@ -1,5 +1,5 @@
 {
-	"Projet Personnels": [
+	"pp": [
 		{
 			"title": "Daltonisme",
 		  "description": "description descriptive",
@@ -7,7 +7,7 @@
 		  "link":"#"
 		}
 	],
-	"Projet Scolaires": [
+	"ps": [
 		{
 			"title": "Daltonisme",
 			"description":"description descriptive",
@@ -33,7 +33,7 @@
 			"link": "#"
 		}
 	],
-	"Projets Communautaires": [
+	"pc": [
 		{
 			"title": "Faithful 3D",
 			"description": "description descriptive",
