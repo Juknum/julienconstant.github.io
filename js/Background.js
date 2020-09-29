@@ -39,7 +39,6 @@ function LoadBackground(value) {
 		if (cookieBackground === 2) {
 			poster.style.display = 'none';
 			var background = document.getElementById('background');
-
 			background.style.backgroundColor = 'pink';
 
 		}
