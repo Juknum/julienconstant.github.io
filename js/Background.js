@@ -31,8 +31,7 @@ function loadColor() {
 }
 
 function checkColor() {
-
-	color = prompt("Entrez une couleur héxadécimale :","");
+	var color = prompt("Entrez une couleur héxadécimale :","");
 	if (color != "" && color != null) {
 		setCookie("BACKGROUNDCOLOR",color,365);
 		document.getElementById("background").style.backgroundColor = '#' + color;
