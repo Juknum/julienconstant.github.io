@@ -3,21 +3,7 @@ layout: default
 title: Julien Constant
 ---
 
-<div id="background" class="background" onload="LoadBackground(0)">
-	<video id="poster" class="bg-video" loop muted autoplay poster="">
-		<source id="video-webm" src="" type="video/webm">
-		<source id="video-mp4" src="" type="video/mp4">
-	</video>
-
-	<div style="
-    background-color: rgb(25 32 34 / 40%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  "></div>
-</div>
+<div id="background" class="background" onload="loadColor()"></div>
 
 <div class="foreground">
 	<img class="mx-auto d-block rounded-circle img-me" height="200px" width="200px" src="https://avatars2.githubusercontent.com/u/49886317?s=400&u=ac53e5b5822e11e7daed66dc72837cf2cd7a6390&v=4">
@@ -68,7 +54,7 @@ title: Julien Constant
 
 		<hr>
 
-		<a class="btn btn-dark squared" onclick="LoadBackground(1)">
+		<a class="btn btn-dark squared" onclick="checkColor()">
 			<i class="fas fa-fill-drip"></i>
 			<p class="thumb">Swap</p>
 		</a>
