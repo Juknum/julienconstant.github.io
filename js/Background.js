@@ -7,7 +7,7 @@ function setCookie(name,value,exdays) {
 
 function getCookie(name) {
 	name += "=";
-	var decodedCookie = decodedURIComponent(document.cookie);
+	var decodedCookie = decodeURIComponent(document.cookie);
 	var ca = decodedCookie.split(";");
 
 	for (var i = 0; i < ca.length; i++){
