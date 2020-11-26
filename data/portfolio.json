@@ -48,22 +48,22 @@
 			"link":         "https://www.faithful3d.team/"
 		},
 		{
-			"title":        "Faithful Addons",
-			"description":  "Création d'une communauté autour du pack de ressource Faithful pour Minecraft.",
+			"title":        "Compliance Addons",
+			"description":  "Création d'une communauté autour du pack de ressource Compliance pour Minecraft.",
 			"image":        "images/portfolio/faddons.png",
 			"link":         "https://discord.gg/qVeDfZw"
 		},
 		{
-			"title":        "Faithful Dungeons",
+			"title":        "Compliance Dungeons",
 			"description":  "Double résolutions pour le jeux Minecraft Dungeons.",
 			"image":        "images/portfolio/fdungeons.png",
-			"link":         "https://github.com/Faithful-Dungeons"
+			"link":         "https://github.com/Compliance-Dungeons"
 		},
 		{
-			"title":        "Faithful Mods",
+			"title":        "Compliance Mods",
 			"description":  "Double résolutions pour les Mods Java de Minecraft.",
 			"image":        "images/portfolio/fmods.png",
-			"link":         "https://github.com/Faithful-Mods"
+			"link":         "https://github.com/Compliance-Mods"
 		}
 	]
 }

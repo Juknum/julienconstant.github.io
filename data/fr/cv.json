@@ -1,0 +1,80 @@
+{
+	"information": {
+		"title": "Informations",
+		"age": 		[ "âge", 				"19 ans" ],
+		"mail": 	[ "e-mail", 		"julien.constant@utbm.fr" ],
+		"phone": 	[ "téléphone", 	"+33 07 86 35 13 39" ],
+		"adress": [ "adresse", 		"23 rue du Tramway, 90000 Belfort" ],
+		"lang": 	[ "langues", 		"Anglais, Français" ],
+		"shortText": "Salut! Je suis <strong>Julien Constant</strong>, actuellement étudiant en formation d'ingénieur en informatique à l'<strong>Université de Technologie de Belfort-Montbéliard.</strong>"
+	},
+	"progress": {
+		"title": "Capacités",
+		"list1": { 
+			"Arduino": 		"35%",
+			"C": 					"50%",
+			"CSS": 				"50%"
+		},
+		"list2": {
+			"HTML": 			"70%",
+			"JavaScript": "35%",
+			"Python": 		"60%"
+		}
+	},
+	"school": {
+		"title": "Parcours",
+		"list": [
+			{ 
+				"year": "2019 - 2024", 
+				"title": "Diplôme d'Ingénieur en Informatique",
+				"school": "Université de Technologie de Belfort-Montbéliard",
+				"mention": "",
+				"description": "Activités et associations : Responsable Communication de l’UTGaming (P20)",
+				"uvs": {
+					"TC1 (A19)": {
+						"CI00": ["E",  "1/1", "TM", "",                  "Recherche et utilisation de l'information"                 ],
+						"CMA" : ["B",  "6/6", "CS", "CMA1: B / CMA2: B", "Organisation de la matière"                                ],
+						"GE00": ["C",  "3/3", "OM", "",                  "Recherche d'information et connaissance de l'entreprise"   ],
+						"IFA" : ["B",  "6/6", "TM", "IFA1: B / IFA2: B", "Bases de l'informatique pour l'ingénieur"                  ],
+						"MDA" : ["C",  "3/3", "TM", "",                  "Applications : méthodologie, stage"                        ],
+						"MTZ" : ["E-", "3/6", "CS", "MTZ1: E / MTZ2: F", "Algèbre et analyse (niveau 0)"                             ],
+						"PMA" : ["B+", "6/6", "CS", "PMA1: A / PMA2: B", "Outils mathématiques élémentaires appliqués à la physique" ],
+						"PSA" : ["C",  "6/6", "CS", "PSA1: B / PSA2: D", "Initiation à l'électricité"                                ]
+					},
+					"TC2 (P20)": {
+						"IFB" : ["B",  "6/6", "TM", "IFB1: C / IFB2: A", "Algorithmique et programmation : niveau I, débutants"           ],
+						"LE02": ["D",  "4/4", "EC", "",                  "Anglais niveau II"                                              ],
+						"MDB" : ["B",  "3/3", "TM", "",                  "Outils et méthodologie d'apprentissage"                         ],
+						"MTA" : ["B",  "6/6", "CS", "MTA1: B / MTA2: B", "Algèbre et analyse (niveau 1)"                                  ],
+						"PSB" : ["D+", "6/6", "CS", "PSB1: E / PSB2: B", "Mécanique du point"                                             ],
+						"SO10": ["D",  "3/3", "OM", "",                  "Sociologie de l'entreprise"                                     ],
+						"ST10": ["B",  "6/6", "ST", "",                  "Stage ouvrier"                                                  ],
+						"TNA" : ["C",  "6/6", "CS", "TNA1: C / TNA2: C", "Initiation aux techniques de l'ingénieur : niveau I, débutants" ]
+					},
+					"TC3 (A20)": {
+						"AC20": ["-", "./6", "CS", "", ""],
+						"EL21": ["-", "./6", "TM", "", ""],
+						"HE05": ["-", "./6", "CG", "", ""],
+						"LE03": ["-", "./4", "EC", "", ""],
+						"LO21": ["-", "./6", "CS", "", ""],
+						"MTB" : ["-", "./6", "CS", "", ""]
+					}
+				}
+			},
+			{
+				"year": "2016 - 2019",
+				"title": "Baccalauréat",
+				"school": "Lycée Lumière",
+				"mention": "Mention : Bien",
+				"description": "Options :<br>Informatique et Sciences du Numérique (<a href=\"https://github.com/Juknum/Daltonisme\">Projet</a>)<br>LV1 : Anglais<br>LV2 : Allemand"
+			},
+			{
+				"year": "2012 - 2016",
+				"title": "Brevet des Collèges",
+				"school": "Collège Saint Colomban",
+				"mention": "Mention : Très Bien",
+				"description": "Options :<br>DP3<br>LV1 : Anglais<br>LV2 : Allemand<br>LV3 : Espagnol<br>Latin"
+			}
+		]
+	}
+}

@@ -2,74 +2,48 @@
 layout: default
 title: Julien Constant
 ---
-
-<div id="background" class="background"></div>
-
-<div class="foreground">
-	<img class="mx-auto d-block rounded-circle img-me" height="200px" width="200px" src="https://avatars2.githubusercontent.com/u/49886317?s=400&u=ac53e5b5822e11e7daed66dc72837cf2cd7a6390&v=4">
-
-	<div class="container" id="containerOld">
-
-		<a class="btn btn-dark squared" onclick="Show('cv','fr')">
+<div>
+	<div id="nav" class="container" style="display: block;">
+		<a class="btn" onclick="Show('cv','fr')">
 			<i class="fas fa-file-contract"></i>
 			<p class="thumb">CV</p>
 		</a>
-
-		<a class="btn btn-dark squared" onclick="LoadPortfolio('fr')">
+		<a class="btn" onclick="Show('portfolio','fr')">
 			<i class="fas fa-folder-open"></i>
 			<p class="thumb">Portfolio</p>
 		</a>
-
-		<a class="btn btn-dark squared" href="https://github.com/Juknum">
+		<a class="btn" href="https://github.com/Juknum">
 			<i class="fab fa-github"></i>
 			<p class="thumb">GitHub</p>
 		</a>
-
-		<a class="btn btn-dark squared" href="https://www.linkedin.com/in/j-constant/">
+		<a class="btn" href="https://www.linkedin.com/in/j-constant/">
 			<i class="fab fa-linkedin"></i>
 			<p class="thumb">LinkedIn</p>
 		</a>
 
 		<br>
 
-		<a class="btn btn-dark squared" href="https://steamcommunity.com/id/Juknum/">
+		<a class="btn" href="https://steamcommunity.com/id/Juknum/">
 			<i class="fab fa-steam"></i>
 			<p class="thumb">Steam</p>
 		</a> 
-
-		<a class="btn btn-dark squared" href="https://www.instagram.com/jlcnst/">
+		<a class="btn" href="https://www.instagram.com/jlcnst/">
 			<i class="fab fa-instagram"></i>
 			<p class="thumb">Instagram</p>
 		</a>
-
-		<a class="btn btn-dark squared" href="https://twitter.com/Juknum_">
+		<a class="btn" href="https://twitter.com/Juknum_">
 			<i class="fab fa-twitter"></i>
 			<p class="thumb">Twitter</p>
 		</a>
-
-		<a class="btn btn-dark squared" href="https://www.facebook.com/jlcnst">
+		<a class="btn" href="https://www.facebook.com/jlcnst">
 			<i class="fab fa-facebook"></i>
 			<p class="thumb">Facebook</p>
 		</a>
-
-		<hr>
-
-		<a class="btn btn-dark squared" onclick="checkColor()">
-			<i class="fas fa-fill-drip"></i>
-			<p class="thumb">Swap</p>
-		</a>
-
 	</div>
 
-	<div class="container" id="containerNew" style="display: hidden;"></div>
+	<div id="result" class="container" style="display: hidden;">
+	</div>
 </div>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/Background.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/LoadPortfolio.js" async></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/Show.js" async></script>
-
-<script>
-	window.onload = function() {
-	 loadColor();
-	}
-</script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/Show.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/Hide.js"></script>
