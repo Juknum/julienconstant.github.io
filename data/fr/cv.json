@@ -29,7 +29,7 @@
 				"title": "Diplôme d'Ingénieur en Informatique",
 				"school": "Université de Technologie de Belfort-Montbéliard",
 				"mention": "",
-				"description": "Activités et associations : Responsable Communication de l’UTGaming (P20)",
+				"description": "",
 				"uvs": {
 					"TC1 (A19)": {
 						"CI00": ["E",  "1/1", "TM", "",                  "Recherche et utilisation de l'information"                 ],
@@ -52,12 +52,19 @@
 						"TNA" : ["C",  "6/6", "CS", "TNA1: C / TNA2: C", "Initiation aux techniques de l'ingénieur : niveau I, débutants" ]
 					},
 					"TC3 (A20)": {
-						"AC20": ["F", "0/6", "CS", "", ""],
-						"EL21": ["-", "./6", "TM", "", ""],
-						"HE05": ["A", "6/6", "CG", "", ""],
-						"LE03": ["-", "./6", "EC", "", ""],
-						"LO21": ["-", "./6", "CS", "", ""],
-						"MTB" : ["F", "0/6", "CS", "", ""]
+						"AC20": ["F", "0/6", "CS", "",                   "Acquisition de Connaissances"                    ],
+						"EL21": ["-", "./6", "TM", "",                   "Initiation au génie électrique"                  ],
+						"HE05": ["A", "5/5", "CG", "",                   "Les ingénieurs et les techniciens dans le temps" ],
+						"LE03": ["-", "./6", "EC", "",                   "Anglais pratique et examen international"        ],
+						"LO21": ["-", "./6", "CS", "",                   "Algorithmique et programmation : niveau II"      ],
+						"MTB" : ["E-", "3/6", "CS", "MTB1: E / MTB2: F", "Algèbre et analyse (niveau 2)"                   ]
+					},
+					"TC4 (P21)": {
+						"MTC":  ["-", "./6", "CS", "", "Algèbre et analyse (niveau 3)"],
+						"SQ20": ["-", "./.", "CS", "", ""],
+						"LP24": ["-", "./.", "TM", "", ""],
+						"LP25": ["-", "./.", "TM", "", ""],
+						"LR00": ["-", "./.", "EC", "", ""]
 					}
 				}
 			},
