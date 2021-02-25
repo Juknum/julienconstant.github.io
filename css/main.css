@@ -1,7 +1,7 @@
 body {
   min-height: 100vh;
   background: 
-    linear-gradient(to top right, rgba(121, 91, 176, 1) 0%, rgba(74, 193, 255, 1) 66%, rgba(76, 234, 255, 1) 92%, rgba(76, 234, 255, 1) 100%);
+    linear-gradient(to top right, rgba(33, 47, 79, 1) 0%, rgba(39, 99, 130, 1) 66%);
 }
 
 .img-me {

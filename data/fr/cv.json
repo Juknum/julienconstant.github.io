@@ -58,14 +58,14 @@
 						"HE05": ["A", "5/5", "CG", "", "Les ingénieurs et les techniciens dans le temps" ],
 						"LE03": ["D", "8/6", "EC", "", "Anglais pratique et examen international"        ],
 						"LO21": ["D", "6/6", "CS", "", "Algorithmique et programmation : niveau II"      ],
-						"MTB" : ["F", "3/6", "CS", "", "Algèbre et analyse (niveau 2)"                   ]
+						"MTB" : ["F", "0/6", "CS", "", "Algèbre et analyse (niveau 2)"                   ]
 					},
 					"TC4 (P21)": {
-						"MTC":  ["-", "./6", "CS", "", "Algèbre et analyse de deuxième année"],
+						"LP25": ["-", "./6", "TM", "", "Initiation au système Linux et programmation en Langage C Système"],
 						"LP2A": ["-", "./3", "TM", "", "Introduction to object conception and programming"],
 						"LP2B": ["-", "./3", "TM", "", "Multimedia: digital representation"],
-						"LP25": ["-", "./6", "TM", "", "Initiation au système Linux et programmation en Langage C Système"],
 						"LR00": ["-", "./.", "EC", "", "Russe vrai débutant"],
+						"MTC":  ["-", "./6", "CS", "", "Algèbre et analyse de deuxième année"],
 						"PS26": ["-", "./6", "CS", "", "Electromagnétisme"]
 					}
 				}
